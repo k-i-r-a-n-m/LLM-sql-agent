@@ -1,0 +1,6 @@
+dspy==2.5.43
+chromadb
+openai
+python-dotenv
+pandas 
+sqlalchemy 

@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "streamlit run d:/kabali_demo/pg_agent/dspy_using_sqlit/using_dspy/with_ui_v2.py",
+            "console": "integratedTerminal"
+        },
+        // {
+        //     "name": "streamlit",
+        //     "type": "debugpy",
+        //     "request": "launch",
+        //     "module": "streamlit run d:/kabali_demo/pg_agent/dspy_using_sqlit/using_dspy/with_ui_v2.py"
+        // }
+    ]
+}
