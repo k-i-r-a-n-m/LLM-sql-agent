@@ -115,23 +115,7 @@ def sql_agent(user_query: str):
     
     return response
 
-def main():
-    st.title("SQL Chatbot")
-    user_query = st.text_input("Enter your query:")
-    if st.button("Submit"):
-        response = sql_agent(user_query)
-        
-        st.subheader("Generated SQL Query:")
-        st.code(response.sql_query, language="sql")
-        
-        st.subheader("Query Results:")
-        st.write(response.result)
-        
-        st.subheader("Summary:")
-        st.write(response.summary)
-        
-        st.subheader("Answer:")
-        st.write(response.answer)
+
 
 if __name__ == "__main__":
     # main()
